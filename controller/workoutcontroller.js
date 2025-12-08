@@ -18,17 +18,17 @@ const myJOKES=async(req,res)=>{
     const jokes=[
         {
             id:1,
-            joke:"This iS First Jokes"
+            title:"This is First Jokes"
         },
         {
             id:2,
-            joke:"This iS Second Jokes"
+            title:"This is Second Jokes"
         },{
             id:3,
-            joke:"This iS Third Jokes"
+            title:"This is Third Jokes"
         },{
             id:4,
-            joke:"This iS Fourth Jokes"
+            title:"This is Fourth Jokes"
         }
     ];
     res.status(200).send(jokes);
